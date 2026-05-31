@@ -10,22 +10,22 @@ The purpose of this lab is to practice core IT support and system administration
 
 ## Technologies Used
 
-- Windows Server 2022
-- Windows 10 Pro
-- Active Directory Domain Services (AD DS)
-- DNS (Domain Name System)
-- Oracle VirtualBox
-- TCP/IP Networking
-- Command Prompt (CMD)
+* Windows Server 2022
+* Windows 10 Pro
+* Active Directory Domain Services (AD DS)
+* DNS (Domain Name System)
+* Oracle VirtualBox
+* TCP/IP Networking
+* Command Prompt (CMD)
 
 ---
 
 ## Lab Environment
 
-| System | Role | Operating System | IP Address |
-|----------|----------|----------|----------|
-| DC01 | Domain Controller / DNS Server | Windows Server 2022 | 192.168.10.10 |
-| CLIENT01 | Domain-Joined Workstation | Windows 10 Pro | 192.168.10.20 |
+| System   | Role                           | Operating System    | IP Address    |
+| -------- | ------------------------------ | ------------------- | ------------- |
+| DC01     | Domain Controller / DNS Server | Windows Server 2022 | 192.168.10.10 |
+| CLIENT01 | Domain-Joined Workstation      | Windows 10 Pro      | 192.168.10.20 |
 
 ### Domain Name
 
@@ -67,9 +67,9 @@ company.local
 
 The following Organizational Units (OUs) were created to organize users and computers within the domain:
 
-- Departments
-- IT
-- Workstations
+* Departments
+* IT
+* Workstations
 
 ### User Management
 
@@ -133,9 +133,9 @@ ping 192.168.10.10
 
 Results:
 
-- Successful communication
-- No packet loss
-- DNS resolution functioning properly
+* Successful communication
+* No packet loss
+* DNS resolution functioning properly
 
 ---
 
@@ -161,53 +161,53 @@ Domain: company.local
 
 ## Lab Overview
 
-![Lab Overview](Screenshots/01-lab-overview.png)
+![Lab Overview](01-lab-overview.png)
 
 ## Domain Controller Configuration
 
-![Domain Controller](Screenshots/02-domain-controller.png)
+![Domain Controller](02-domain-controller.png)
 
 ## Active Directory Structure
 
-![Active Directory Structure](Screenshots/03-active-directory-structure.png)
+![Active Directory Structure](03-active-directory-structure.png)
 
 ## Domain User
 
-![Domain User](Screenshots/04-domain-user.png)
+![Domain User](04-domain-user.png)
 
 ## DC01 Network Configuration
 
-![DC01 IP Configuration](Screenshots/05-dc01-ipconfig.png)
+![DC01 IP Configuration](05-dc01-ipconfig.png)
 
 ## DNS Resolution Test
 
-![DNS Lookup](Screenshots/06-dns-lookup.png)
+![DNS Lookup](06-dns-lookup.png)
 
 ## Client Connectivity Test
 
-![Client Connectivity](Screenshots/07-client-connectivity.png)
+![Client Connectivity](07-client-connectivity.png)
 
 ## Workstations OU
 
-![Workstations OU](Screenshots/08-workstations-ou.png)
+![Workstations OU](08-workstations-ou.png)
 
 ---
 
 ## Skills Demonstrated
 
-- Active Directory Domain Services (AD DS)
-- DNS Administration
-- Organizational Unit (OU) Management
-- User Account Administration
-- Computer Object Management
-- Domain Controller Deployment
-- Windows Server 2022 Administration
-- Windows 10 Domain Joining
-- TCP/IP Networking
-- DNS Troubleshooting
-- Network Troubleshooting
-- Virtualization with Oracle VirtualBox
-- Command Line Administration
+* Active Directory Domain Services (AD DS)
+* DNS Administration
+* Organizational Unit (OU) Management
+* User Account Administration
+* Computer Object Management
+* Domain Controller Deployment
+* Windows Server 2022 Administration
+* Windows 10 Domain Joining
+* TCP/IP Networking
+* DNS Troubleshooting
+* Network Troubleshooting
+* Virtualization with Oracle VirtualBox
+* Command Line Administration
 
 ---
 
